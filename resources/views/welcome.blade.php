@@ -11,7 +11,11 @@
         <h1>Meu CRUD básico com Laravel</h1>
 
         <a href="">
-            <button type="button">Listar os Registros</button>
+            <button type="button">Listar os registros</button>
+        </a>
+        <br><br>
+        <a href="">
+            <button type="button">Cadastrar novo registro</button>
         </a>
     </body>
 </html>
