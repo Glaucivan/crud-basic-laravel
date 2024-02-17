@@ -26,10 +26,6 @@ Acessar o conteúdo padrão do Laravel
 ```
 http://127.0.0.1:8000/
 ```
-Executar as migration
-```
-php artisan migrate
-```
 
 ## Sequencia para criar no projeto
 
@@ -38,8 +34,7 @@ Criar a migration
 php artisan make:migration create_NOMEDATABELA_table
 ```
 ```
-php artisan make:migration create_crudlaravel_table
-```
+php artisan make:migration create_crud_table
 Executar as migration
 ```
 php artisan migrate
