@@ -35,10 +35,10 @@ php artisan migrate
 
 Criar a migration
 ```
-php artisan make:migrate create_NOMEDATABELA_table
+php artisan make:migration create_NOMEDATABELA_table
 ```
 ```
-php artisan make:migrate create_crudlaravel_table
+php artisan make:migration create_crudlaravel_table
 ```
 Executar as migration
 ```
