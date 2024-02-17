@@ -30,3 +30,32 @@ Executar as migration
 ```
 php artisan migrate
 ```
+
+## Sequencia para criar no projeto
+
+Criar a migration
+```
+php artisan make:migrate create_NOMEDATABELA_table
+```
+```
+php artisan make:migrate create_crudlaravel_table
+```
+Executar as migration
+```
+php artisan migrate
+```
+
+Criar Controller
+```
+php artisan make:controller CrudController
+```
+
+Criar a VIEW e a pasta
+```
+php artisan make:view crud/index
+```
+
+Criar Models
+```
+php artisan make:model Crud
+```
