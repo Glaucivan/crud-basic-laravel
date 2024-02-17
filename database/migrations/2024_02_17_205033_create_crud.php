@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('crud', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('registro');
             $table->timestamps();
         });
     }
